@@ -1,6 +1,10 @@
 package com.example.webfluxdemo;
 
+import org.springframework.data.annotation.Id;
+
 public class Number {
+    @Id
+    private Integer id;
     private Integer value;
 
     public Number() {
@@ -18,6 +22,8 @@ public class Number {
         this.value = value;
     }
 }
+
+// comment.getPost().getId() (X)
 
 // 1. @Controller
 // 2. Router Functions
