@@ -3,6 +3,9 @@ package com.example.webfluxdemo;
 public class Number {
     private Integer value;
 
+    public Number() {
+    }
+
     public Number(Integer value) {
         this.value = value;
     }
